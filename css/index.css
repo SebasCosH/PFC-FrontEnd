@@ -1,1 +1,52 @@
+/* Main */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+main {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 75px 1fr;
+}
+main h2 {
+    text-align: center;
+    color: #dae1e7;
+    padding: 10px;
+}
+main > div {
+    background-image: url("/img/architecture.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main > div button {
+    color: #183661;
+    font-size: large;
+    font-weight: bolder;
+    width: 60%;
+    height: 60px;
+    margin: 10px;
+    border-radius: 100px 100px 100px 100px;
+    -moz-border-radius: 100px 100px 100px 100px;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border: 5px double #000000;
+    background-color: rgba(255, 255, 255, 0.507);
+}
 
+aside {
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    border-radius: 200px 200px 0px 200px;
+    -moz-border-radius: 200px 200px 0px 200px;
+    -webkit-border-radius: 200px 200px 0px 200px;
+    border: 4px solid #000000;
+    background-color: #dae1e7;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+aside > p {
+    width: 200px;
+}
