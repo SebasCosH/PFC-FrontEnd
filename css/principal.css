@@ -1,0 +1,12 @@
+body {
+    grid-template-rows: 70px minmax(100px, 200px) 1fr 100px;
+}
+header h2 {
+    display: none;
+}
+header div > div {
+    display: block;
+}
+header div > img {
+    display: block;
+}
